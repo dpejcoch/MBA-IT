@@ -20,19 +20,60 @@
 * Popis užití dat v rámci vertikály (matice užití);
 * Popis byznys dopadu nekvalitních dat podle jednotlivých vlastností dat.
 
+### Data vs. Information Management
+* Jaký je rozdíl mezi daty a informacemi?
+* Jaký je potom rozdíl mezi Data a Information Management?
+* Patří Business Intelligence do Data Management?
+* Co je to Data Product? Existuje také Information Product?
+* Jak souvisí kvalita dat s kvalitou informací?
+
+### Microservices vs. SOA
+* Jaké jsou principy Servisně Orientované Architektury?
+* V čem se liší (a naopak neliší) Microservices a SOA?
+* Kriticky zhodnoťte výhody a nevýhody obou přístupů;
+* Uveďte příklady řešení, kdy je vhodnější použít SOA a kdy Microservices.
+
+### Datové aktivum vs. produkt
+* Co je to datové aktivum (asset) a jak souvisí s Data Governance;
+* Co je datový produkt, jak souvisí s Data Mesh;
+* Jaké jsou charakteristiky datových produktů a aktiv;
+* Je skutečně datový produkt vhodnějším pojmem než datové aktivum?
+
+### Důležitost řízení metadat v moderním řízení firmy
+* Co jsou to metadata a jakým způsobem je lze členit;
+* Jak souvisí metadata s hlavními historickými problémy Data Management;
+* Co je to Data Liquidity/Interoperability a jak souvisí s řízením metadat;
+* Představte příklady řešení, která jsou kriticky závislá na existenci metadat (HDFS, MDM, Data Virtualization, Data Lake, ...)
+* Navhrněte implementaci metadata repository v rámci Vaší organizace;
+* Zhodnoťte přínosy/náklady takové implementace.
+
 ### Master Data Management – porovnání přínosů a nákladů 
 * Co je to Master Data Management;
+* Jaký je rozdíl mezi řízením kmenových (master) dat a řízení referenčních dat?
 * Relevantní entity pro MDM, specifické formy MDM;
 * Návaznost MDM na Data Governance;
 * Kritické zhodnocení přínosů;
 * Kritické zhodnocení výše nákladů na implementaci a provoz;
 * Kritické faktory úspěšnosti implementace MDM.
 
-### Dopad metrik výkonnosti řízení dat do ostatních oblastí řízení IT
+### Návrh přístupu k auditu datové kvality
+* Co by měl obsahovat audit datové kvality;
+* Jaké kroky existujících metodik pro řízení kvality dat odpovídají auditu kvality;
+* Jaká by měla být vazba auditu datové kvality na audit informačního systému?
+* Jaké standardy lze použít pro audit kvality dat;
+* Navrhněte plán auditu.
+
+### Dopad metrik výkonnosti řízení dat do metrik výkonnosti ostatních oblastí řízení IT/firmy
 * Řízení dat jako jedna z dimenzí řízení informatiky;
 * Metriky výkonnosti informatiky;
 * Metriky výkonnosti řízení dat;
 * Kauzální závislosti mezi metrikami výkonnosti.
+
+### Význam online datové kvality
+* V čem je specifické řízení kvality dat majících charakter streamu?
+* Popište význam a architekturu DQ Firewall;
+* Jakým způsobem byste implementovali DQ Firewall;
+* Jakým způsobem byste v takovém případě řešili dávkové (batch) loady dat?
 
 ### Porovnání míry dopadu nekvalitních dat ve státním a soukromém sektoru
 * Formy užití dat ve státním a soukromém sektoru;
@@ -68,6 +109,16 @@
 * Jaké vlastnosti mají největší vliv?
 * Jak lze tomuto negativnímu jevu čelit?
 
+### Data Sustainability
+* Jaký je dopad zpracování dat na životní prostředí?
+* Porovnejte on-premise a in-cloud jako alternativy.
+
+### Kritické zhodnocení přínosů Feature Store
+* Co je to Feature Store a jaký je rozdíl oproti analytickému data martu?
+* Pro jaké typy pokročilé analýzy (deskriptivní, prediktivní, preskriptivní, ...) lze Feature Store použít?
+* Do jaké míry lze očekávat znovupoužitelné features a do jaké míry jsou specifické pro konkrétní model?
+* Navrhněte datovou a aplikační architekturu Feature Store.
+
 ## Témata postupových prací Knowledge Management/Engineering
 
 ### Etické aspekty expertních systémů
@@ -100,8 +151,13 @@
 * Kriticky zhodnoťte tyto trendy?
 * Jaký bude podle Vás další vývoj?
 
+### Možnosti využití znalostí v dané vertikále (E-business, Finance, Retail, Telco,...)
+* Jaké vidíte možnosti využití získaných znalostí pro danou vertikálu?
+* S jakými úskalími je využití znalostí pro tyto účely spojeno?
+* Detailně popište vybraný způsob využití.
+
 ### Možnosti využití znalostí pro CRM
-* Jaké vidíte možnosti využití získaných znalostí pro e-business?
+* Jaké vidíte možnosti využití získaných znalostí pro CRM?
 * S jakými úskalími je využití znalostí pro tyto účely spojeno?
 * Detailně popište vybraný způsob využití.
 
@@ -113,3 +169,9 @@
 * Jaké jsou typy inteligentních agentů;
 * Zamyslete se nad možnostmi využití inteligentních agentů;
 * Popište konkrétní praktický příklad jejich využití.
+
+### Možnosti využití sociálních sítí a groupware aplikací pro Knowledge Management
+* Popište hlavní problémy znalostního managementu;
+* Jakým způsobem mohou při řešení těchto problémů pomoci sociální sítě a groupware aplikace?
+* S jakými úskalími je spojena jejich implementace?
+* Navrhněte implementaci v prostředí Vaší organizace.
